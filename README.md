@@ -14,19 +14,24 @@ A full-stack deliveries management system integrating **WhatsApp messages, Fireb
 ---
 
 ## 🚀 Overview
-The Deliveries System helps businesses manage deliveries by **automating WhatsApp order processing** and **tracking deliveries in real-time**.
+The Deliveries System helps shift manager manage deliveries by **automating WhatsApp order processing** and **tracking deliveries in real-time**.
 
 ### 👥 Users:
 1. **Admin (Manager):** Can view, assign, and track all deliveries.
-2. **Delivery Personnel:** Receives assigned deliveries in real time and updates the status.
+2. **worker:** Receives assigned deliveries in real time and updates the status.
 
 ### 🔹 Features:
 ✔️ **WhatsApp Integration:** Auto-processes messages from businesses.
+
 ✔️ **Real-time Delivery Tracking:** Assign deliveries and get instant updates.
+
 ✔️ **AI-Powered Image Analysis:** Extracts details from delivery images.
+
 ✔️ **Sorting & Filtering:** Sort deliveries by time or business.
-✔️ **Navigation Integration:** Open Waze directly for the delivery address.
-✔️ **Secure Authentication:** Role-based access (Admin / Delivery).
+
+✔️ **Navigation & Quick Actions** – One-tap Waze navigation and call options (hands-free driving safety).
+
+✔️ **Secure Authentication:** Role-based access (admin / worker).
 
 ---
 
@@ -34,10 +39,11 @@ The Deliveries System helps businesses manage deliveries by **automating WhatsAp
 The system is built with **React Native (Frontend), Node.js (Backend), Firebase, and Azure AI** for processing WhatsApp messages.
 
 ### 📌 How It Works:
-1. **Incoming WhatsApp messages** → Firebase Firestore (via webhook).
+1. **Incoming WhatsApp messages** → Firebase Firestore (via webhook & green api).
 2. **Firebase Function processes messages**:
-   - Extracts details (phone, address, business name).
    - Analyzes images with **Azure Computer Vision**.
+   - Extracts details (phone, address, business name, time).
+   
 3. **Deliveries stored in Firebase Realtime Database**.
 4. **Node.js Server Listens for Changes**:
    - Uses **WebSockets (Socket.io)** for real-time updates.
@@ -63,7 +69,7 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 2. Set up **.env** file (Environment Variables).
 3. Start the backend server:
    ```sh
-   npm start
+   node server
    ```  
 
 ### 🔹 Frontend Setup
@@ -89,14 +95,14 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 
 ### 🔹 Admin Panel (Manager):
 - View all incoming deliveries.
-- Assign deliveries to drivers.
+- Assign tasks to workers.
 - Track delivery progress.
-- Call delivery personnel (hands-free).
+- Add new user to system.
 
 ### 🔹 Delivery Personnel App:
 - See assigned deliveries in real time.
-- Open Waze for directions.
-- Update status (e.g., "Picked Up", "Delivered").
+- Open Waze for directions && make phone call in a buttom press.
+- Update status ("Delivered").
 
 ---
 
@@ -105,23 +111,19 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 ### Backend
 - **Node.js + Express** – REST API
 - **Firebase Functions** – Background message processing
-- **Firebase Firestore** – Stores incoming WhatsApp messages
-- **Firebase Realtime Database** – Stores active deliveries
+- **Firebase Firestore** – Stores incoming WhatsApp messages & businesses details
+- **Firebase Realtime Database** – Stores deliveries according date & users info
+- **Firebase Authentication**
+- **Firebase Notifications**
 - **Socket.io** – Real-time updates
 - **Azure Computer Vision** – Extracts text from images
+- **Green Api** - webhook endpoint
 
 ### Frontend (Mobile App)
 - **React Native + Expo**
 - **React Navigation** (Stacks, Tabs)
 - **Styled Components** – UI styling
-- **Firebase Authentication**
+- **hooks**
 
----
-
-## 🤝 Contributing
-If you’d like to contribute:
-1. Fork the repository.
-2. Create a new branch (`feature/new-feature`).
-3. Submit a Pull Request.
 
 ---
