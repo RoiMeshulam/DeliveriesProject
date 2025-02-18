@@ -16,11 +16,11 @@ A full-stack deliveries management system integrating **WhatsApp messages, Fireb
 ## 📌 Overview
 The Deliveries System helps shift manager manage deliveries by **automating WhatsApp order processing** and **tracking deliveries in real-time**.
 
-### 📌 Users:
+### 🔹 Users:
 1. **Admin (Manager):** Can view, assign, and track all deliveries.
 2. **worker:** Receives assigned deliveries in real time and updates the status.
 
-### 📌 Features:
+### 🔹 Features:
 ✅  **WhatsApp Integration:** Auto-processes messages from businesses.
 
 ✅  **Real-time Delivery Tracking:** Assign deliveries and get instant updates.
