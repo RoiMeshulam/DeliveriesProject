@@ -41,7 +41,7 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 ![image](https://github.com/user-attachments/assets/b0b1f573-2998-4ccc-a976-c2e0c63f0580)
 
 
-### 📌 How It Works:
+### 🔹 How It Works:
 1. **Incoming WhatsApp messages** → Firebase Firestore (via webhook & green api).
 2. **Firebase Function processes messages**:
    - Analyzes images with **Azure Computer Vision**.
