@@ -6,12 +6,11 @@ A full-stack deliveries management system integrating **WhatsApp messages, Fireb
 ## 📌 Table of Contents
 - [Overview](#overview)
 - [Architecture](#architecture)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
 - [Repositories](#repositories)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-
+  
 ---
 
 ## 📌 Overview
@@ -61,6 +60,43 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 
 ---
 
+## 📌 Technologies Used
+
+### Backend
+- **Node.js + Express** – REST API
+- **Firebase Functions** – Background message processing
+- **Firebase Firestore** – Stores incoming WhatsApp messages & businesses details
+- **Firebase Realtime Database** – Stores deliveries according date & users info
+- **Firebase Authentication**
+- **Firebase Notifications**
+- **Socket.io** – Real-time updates
+- **Azure Computer Vision** – Extracts text from images
+- **Green Api** - webhook endpoint
+
+### Frontend (Mobile App)
+- **React Native + Expo**
+- **React Navigation** (Stacks, Tabs)
+- **Styled Components** – UI styling
+- **hooks**
+
+
+---
+
+## 📌 Usage
+
+### 🔹 Admin Panel (Manager):
+- View all incoming deliveries.
+- Assign tasks to workers.
+- Track delivery progress.
+- Add new user to system.
+
+### 🔹 Delivery Personnel App:
+- See assigned deliveries in real time.
+- Open Waze for directions && make phone call in a buttom press.
+- Update status ("Delivered").
+
+---
+
 ## ⚙️ Installation
 
 ### 🔹 Backend Setup
@@ -95,39 +131,3 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 
 ---
 
-## 📌 Usage
-
-### 🔹 Admin Panel (Manager):
-- View all incoming deliveries.
-- Assign tasks to workers.
-- Track delivery progress.
-- Add new user to system.
-
-### 🔹 Delivery Personnel App:
-- See assigned deliveries in real time.
-- Open Waze for directions && make phone call in a buttom press.
-- Update status ("Delivered").
-
----
-
-## 📌 Technologies Used
-
-### Backend
-- **Node.js + Express** – REST API
-- **Firebase Functions** – Background message processing
-- **Firebase Firestore** – Stores incoming WhatsApp messages & businesses details
-- **Firebase Realtime Database** – Stores deliveries according date & users info
-- **Firebase Authentication**
-- **Firebase Notifications**
-- **Socket.io** – Real-time updates
-- **Azure Computer Vision** – Extracts text from images
-- **Green Api** - webhook endpoint
-
-### Frontend (Mobile App)
-- **React Native + Expo**
-- **React Navigation** (Stacks, Tabs)
-- **Styled Components** – UI styling
-- **hooks**
-
-
----
