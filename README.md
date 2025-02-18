@@ -54,12 +54,6 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 
 ---
 
-## 📂 Repositories
-🔹 **Frontend (React Native App)** ➝ [GitHub Repo](#)
-🔹 **Backend (Node.js Server, Firebase Functions)** ➝ [GitHub Repo](#)
-
----
-
 ## 📌 Technologies Used
 
 ### Backend
@@ -94,6 +88,12 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 - See assigned deliveries in real time.
 - Open Waze for directions && make phone call in a buttom press.
 - Update status ("Delivered").
+
+---
+
+## 📂 Repositories
+🔹 **Frontend (React Native App)** ➝ [GitHub Repo](#)
+🔹 **Backend (Node.js Server, Firebase Functions)** ➝ [GitHub Repo](#)
 
 ---
 
