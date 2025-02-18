@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d1ac3a3e-0d23-4ca7-88cb-3e4deee93394)# 📦 Deliveries System
+📦 Deliveries System
 
 
 A full-stack deliveries management system integrating **WhatsApp messages, Firebase, Azure AI, and real-time updates** for delivery tracking and assignment.
@@ -14,14 +14,14 @@ A full-stack deliveries management system integrating **WhatsApp messages, Fireb
 
 ---
 
-## 🚀 Overview
+## 📌 Overview
 The Deliveries System helps shift manager manage deliveries by **automating WhatsApp order processing** and **tracking deliveries in real-time**.
 
-### 👥 Users:
+### 📌 Users:
 1. **Admin (Manager):** Can view, assign, and track all deliveries.
 2. **worker:** Receives assigned deliveries in real time and updates the status.
 
-### 🔹 Features:
+### 📌 Features:
 ✅  **WhatsApp Integration:** Auto-processes messages from businesses.
 
 ✅  **Real-time Delivery Tracking:** Assign deliveries and get instant updates.
@@ -36,8 +36,11 @@ The Deliveries System helps shift manager manage deliveries by **automating What
 
 ---
 
-## 🛠️ Architecture
+## 📌 Architecture
 The system is built with **React Native (Frontend), Node.js (Backend), Firebase, and Azure AI** for processing WhatsApp messages.
+
+![image](https://github.com/user-attachments/assets/b0b1f573-2998-4ccc-a976-c2e0c63f0580)
+
 
 ### 📌 How It Works:
 1. **Incoming WhatsApp messages** → Firebase Firestore (via webhook & green api).
@@ -107,7 +110,7 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 
 ---
 
-## 🚀 Technologies Used
+## 📌 Technologies Used
 
 ### Backend
 - **Node.js + Express** – REST API
