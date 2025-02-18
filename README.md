@@ -21,17 +21,17 @@ The Deliveries System helps shift manager manage deliveries by **automating What
 2. **worker:** Receives assigned deliveries in real time and updates the status.
 
 ### 🔹 Features:
-✔️ **WhatsApp Integration:** Auto-processes messages from businesses.
+✅  **WhatsApp Integration:** Auto-processes messages from businesses.
 
-✔️ **Real-time Delivery Tracking:** Assign deliveries and get instant updates.
+✅  **Real-time Delivery Tracking:** Assign deliveries and get instant updates.
 
-✔️ **AI-Powered Image Analysis:** Extracts details from delivery images.
+✅  **AI-Powered Image Analysis:** Extracts details from delivery images.
 
-✔️ **Sorting & Filtering:** Sort deliveries by time or business.
+✅  **Sorting & Filtering:** Sort deliveries by time or business.
 
-✔️ **Navigation & Quick Actions** – One-tap Waze navigation and call options (hands-free driving safety).
+✅  **Navigation & Quick Actions** – One-tap Waze navigation and call options (hands-free driving safety).
 
-✔️ **Secure Authentication:** Role-based access (admin / worker).
+✅  **Secure Authentication:** Role-based access (admin / worker).
 
 ---
 
