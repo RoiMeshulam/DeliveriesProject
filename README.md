@@ -92,9 +92,9 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 ---
 
 ## 📂 Repositories
-🔹 **Frontend (React Native App)** ➝ [[GitHub Repo](https://github.com/RoiMeshulam/Deliveries_front)
+🔹 **Frontend (React Native App)** ➝ [Frontend Repo](https://github.com/RoiMeshulam/Deliveries_front)
 
-🔹 **Backend (Node.js Server, Firebase Functions)** ➝ [GitHub Repo](https://github.com/RoiMeshulam/Deliveries_backend/tree/main)
+🔹 **Backend (Node.js Server, Firebase Functions)** ➝ [Backend Repo](https://github.com/RoiMeshulam/Deliveries_backend)
 
 ---
 
