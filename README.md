@@ -4,13 +4,13 @@
 A full-stack deliveries management system integrating **WhatsApp messages, Firebase, Azure AI, and real-time updates** for delivery tracking and assignment.
 
 ## 📌 Table of Contents
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Technologies Used](#technologies-used)
-- [Usage](#usage)
-- [Repositories](#repositories)
-- [Installation](#installation)
-  
+- [Overview](#-overview)
+- [Architecture](#-architecture)
+- [Technologies Used](#-technologies-used)
+- [Usage](#-usage)
+- [Repositories](#-repositories)
+- [Installation](#-installation)
+
 ---
 
 ## 📌 Overview
