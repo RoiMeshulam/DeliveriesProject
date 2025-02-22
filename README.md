@@ -43,7 +43,10 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 ## 📌 Architecture
 The system is built with **React Native (Frontend), Node.js (Backend), Firebase, and Azure AI** for processing WhatsApp messages.
 
-![image](https://github.com/user-attachments/assets/b0b1f573-2998-4ccc-a976-c2e0c63f0580)
+
+
+![02F3DA37-7A08-4F2D-BB8C-E01B8A5EA51A](https://github.com/user-attachments/assets/4bcaa6f7-bea2-4ed2-80b9-0e4193a3aabd)
+
 
 
 ### 🔹 How It Works:
