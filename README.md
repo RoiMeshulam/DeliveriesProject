@@ -70,7 +70,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 ### 🔹 System Flow  
 
 1. **Incoming WhatsApp Messages**  
-   - Businesses send delivery picture via **WhatsApp groups**.  
+   - Businesses send delivery pictures via **WhatsApp groups**.  
    - A **webhook (Green API)** captures and forwards messages to **Firebase Firestore**.  
 
 2. **Processing and Data Extraction**  
@@ -78,20 +78,32 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
    - **Azure Computer Vision** extracts relevant details like:  
      - Customer phone number  
      - Delivery address  
-     - Business name (according to chatId in whatsApp)  
-     - Delivery time  
+     - Business name (mapped from **chatId** in WhatsApp).  
+     - Delivery time.  
    - The extracted data is structured and stored in **Firebase Realtime Database**.  
 
-3. **Real-Time Updates and Tracking**  
+3. **Authentication & User Roles**  
+   - **Firebase Authentication** manages user sign-in.  
+   - Supports **admin (manager)** and **worker (delivery personnel)** roles.  
+   - Each request to the backend includes a **JWT token** for secure access.  
+
+4. **Real-Time Updates and Tracking**  
    - The **Node.js backend** listens for updates in Firebase.  
    - **Socket.io** pushes instant updates to connected devices.  
 
-4. **Mobile App (React Native) for Delivery Personnel**  
+5. **Protected REST API (Express.js)**  
+   - Backend provides **CRUD operations** for managing deliveries.  
+   - Routes are **role-restricted**:  
+     - 🛠 **Admin:** Can create, update, assign, and delete deliveries.  
+     - 📦 **Worker:** Can only view and update assigned deliveries.  
+   - API requests require a **valid authentication token**.  
+
+6. **Mobile App (React Native) for Delivery Personnel**  
    - Displays assigned deliveries in real time.  
    - Provides **one-tap Waze navigation** and **quick call** options for safe and efficient driving.  
    - Allows status updates (e.g., "Delivered").  
 
-
+This ensures a **secure, automated, and real-time delivery management system**.  
 ---
 
 
