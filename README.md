@@ -14,24 +14,25 @@ A full-stack deliveries management system integrating **WhatsApp messages, Fireb
 ---
 
 ## 📌 Overview
-The Deliveries System helps shift manager manage deliveries by **automating WhatsApp order processing** and **tracking deliveries in real-time**.
+Managing deliveries through WhatsApp groups can be chaotic, with multiple businesses sending orders in different formats. The Deliveries System automates this process, providing real-time tracking, organization, and AI-powered message processing—all while allowing managers to continue using WhatsApp.
 
-### 🔹 Users:
-1. **Admin (Manager):** Can view, assign, and track all deliveries.
-2. **worker:** Receives assigned deliveries in real time and updates the status.
+🔹 What Problem Does It Solve?
+The company receives delivery requests in 13 different WhatsApp groups, each with a unique format. Previously, managers had to manually track, organize, and assign deliveries. This system automates the process by extracting order details from messages and images, instantly assigning deliveries to workers, and keeping everything organized.
 
-### 🔹 Features:
-✅  **WhatsApp Integration:** Auto-processes messages from businesses.
+🔹 Features
+✅ WhatsApp Integration – Automatically reads and processes orders from business groups.
 
-✅  **Real-time Delivery Tracking:** Assign deliveries and get instant updates.
+✅ Real-Time Tracking – Instantly updates assigned deliveries and statuses in the app.
 
-✅  **AI-Powered Image Analysis:** Extracts details from delivery images.
+✅ AI-Powered Image Analysis – Extracts details like address, contact info, and order items from delivery photos.
 
-✅  **Sorting & Filtering:** Sort deliveries by time or business.
+✅ User-Friendly App – Designed for efficiency and safety, the app provides:
 
-✅  **Navigation & Quick Actions** – One-tap Waze navigation and call options (hands-free driving safety).
-
-✅  **Secure Authentication:** Role-based access (admin / worker).
+One-tap navigation with Waze for quick routes.
+Instant communication with customers via a call button.
+Smart organization, allowing sorting and filtering by business, time, or status.
+Reduced phone use while driving, ensuring safer operations.
+✅ Secure Authentication – Role-based access for managers and drivers.
 
 ---
 
