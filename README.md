@@ -40,10 +40,30 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 
 ---
 
+# 📌 Technologies Used
+
+### Backend
+- **Node.js - Express** – REST API
+- **Firebase Functions** – processes WhatsApp messages and triggers AI analysis.
+- **Firebase Firestore** – Stores structured data like businesses details and WhatsApp messages.
+- **Firebase Realtime Database** – Stores real-time delivery updates and user statuses.
+- **Firebase Authentication** – Manages secure user logins.
+- **Firebase Notifications** – Sends real-time alerts to users.
+- **Socket.io** – Enables live updates between the server and the app.
+- **Azure Computer Vision** – Extracts order details from delivery images.
+- **Green API** – Connects to WhatsApp Webhooks for message retrieval.
+
+### Frontend (Mobile App)
+- **React Native + Expo** – Cross-platform mobile development
+- **React Navigation** – Stack and tab navigation
+- **Styled Components** – UI styling
+- **React Hooks** – State management
+
+
+
+---
+
 ## 📌 Architecture
-The system is built with **React Native (Frontend), Node.js (Backend), Firebase, and Azure AI** for processing WhatsApp messages.
-
-
 
 ![02F3DA37-7A08-4F2D-BB8C-E01B8A5EA51A](https://github.com/user-attachments/assets/4bcaa6f7-bea2-4ed2-80b9-0e4193a3aabd)
 
@@ -62,27 +82,6 @@ The system is built with **React Native (Frontend), Node.js (Backend), Firebase,
 
 ---
 
-## 📌 Technologies Used
-
-### Backend
-- **Node.js + Express** – REST API
-- **Firebase Functions** – Background message processing
-- **Firebase Firestore** – Stores incoming WhatsApp messages & businesses details
-- **Firebase Realtime Database** – Stores deliveries according date & users info
-- **Firebase Authentication**
-- **Firebase Notifications**
-- **Socket.io** – Real-time updates
-- **Azure Computer Vision** – Extracts text from images
-- **Green Api** - webhook endpoint
-
-### Frontend (Mobile App)
-- **React Native + Expo**
-- **React Navigation** (Stacks, Tabs)
-- **Styled Components** – UI styling
-- **hooks**
-
-
----
 
 ## 📌 Usage
 
