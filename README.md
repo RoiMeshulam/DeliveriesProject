@@ -1,8 +1,5 @@
 # 📦 Deliveries System
 
-
-A full-stack deliveries management system integrating **WhatsApp messages, Firebase, Azure AI, and real-time updates** for delivery tracking and assignment.
-
 ## 📌 Table of Contents
 - [Overview](#-overview)
 - [Architecture](#-architecture)
@@ -74,7 +71,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
    - A **webhook (Green API)** captures and forwards messages to **Firebase Firestore**.  
 
 2. **Processing and Data Extraction**  
-   - A **Firebase Cloud Function** analyzes messages and images.  
+   - A **Firebase Cloud Function** analyzes messages (types: text-message/image-message.  
    - **Azure Computer Vision** extracts relevant details like:  
      - Customer phone number  
      - Delivery address  
@@ -83,7 +80,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
    - The extracted data is structured and stored in **Firebase Realtime Database**.  
 
 3. **Authentication & User Roles**  
-   - **Firebase Authentication** manages user sign-in.  
+   - **Firebase Authentication** manages user sign-in (email & password required).  
    - Supports **admin (manager)** and **worker (delivery personnel)** roles.  
    - Each request to the backend includes a **JWT token** for secure access.  
 
@@ -95,7 +92,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
    - Backend provides **CRUD operations** for managing deliveries.  
    - Routes are **role-restricted**:  
      - 🛠 **Admin:** Can create, update, assign, and delete deliveries.  
-     - 📦 **Worker:** Can only view and update assigned deliveries.  
+     - 📦 **Worker:** Can only view his own deliveries and update the status of his deliveries.  
    - API requests require a **valid authentication token**.  
 
 6. **Mobile App (React Native) for Delivery Personnel**  
