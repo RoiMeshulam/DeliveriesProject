@@ -2,8 +2,8 @@
 
 ## 📌 Table of Contents
 - [Overview](#-overview)
-- [Architecture](#-architecture)
 - [Technologies Used](#-technologies-used)
+- [Architecture](#-architecture)
 - [Usage](#-usage)
 - [Repositories](#-repositories)
 - [Installation](#-installation)
