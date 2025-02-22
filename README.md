@@ -104,18 +104,23 @@ This ensures a secure, automated, and real-time delivery management system.
 ---
 
 
-## 📌 Usage
+## 📌 Usage  
 
-### 🔹 Admin Panel (Manager):
-- View all incoming deliveries.
-- Assign tasks to workers.
-- Track delivery progress.
-- Add new user to system.
+### 🔹 Admin Panel (Manager)  
+The admin interface allows efficient management of deliveries:  
+- 📋 **Monitor all incoming deliveries** in real time.  
+- 👤 **Assign deliveries** to available workers.  
+- 🚚 **Track delivery progress** and status updates.  
+- ➕ **Manage users** – add and remove delivery personnel.  
 
-### 🔹 Delivery Personnel App:
-- See assigned deliveries in real time.
-- Open Waze for directions && make phone call in a buttom press.
-- Update status ("Delivered").
+### 🔹 Delivery Personnel App  
+A streamlined mobile app designed for drivers:  
+- 📦 **View assigned deliveries** instantly upon assignment.  
+- 🛣 **One-tap navigation** via Waze for quick routing.  
+- 📞 **Quick call button** to contact customers.  
+- ✅ **Update delivery status** (e.g., "Delivered") with a single tap.  
+
+This ensures a **seamless and user-friendly experience** for both managers and delivery workers. 🚀  
 
 ---
 
