@@ -31,10 +31,10 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 
 ✅ User-Friendly App – Designed for efficiency and safety, the app provides:
 
-One-tap navigation with Waze for quick routes.
-Instant communication with customers via a call button.
-Smart organization, allowing sorting and filtering by business, time, or status.
-Reduced phone use while driving, ensuring safer operations.
+- One-tap navigation with Waze for quick routes.
+- Instant communication with customers via a call button.
+- Smart organization, allowing sorting and filtering by business, time, or status.
+- Reduced phone use while driving, ensuring safer operations.
 
 ✅ Secure Authentication – Role-based access for managers and drivers.
 
