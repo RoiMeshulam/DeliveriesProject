@@ -120,7 +120,7 @@ A streamlined mobile app designed for drivers:
 - 📞 **Quick call button** to contact customers.  
 - ✅ **Update delivery status** (e.g., "Delivered") with a single tap.  
 
-This ensures a **seamless and user-friendly experience** for both managers and delivery workers. 🚀  
+This helps **maximize efficiency and ensure a user-friendly experience** for both managers and delivery workers.   
 
 ---
 
