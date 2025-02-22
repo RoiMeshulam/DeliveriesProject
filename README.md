@@ -70,7 +70,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 ### 🔹 System Flow  
 
 1. **Incoming WhatsApp Messages**  
-   - Businesses send delivery requests via **WhatsApp groups**.  
+   - Businesses send delivery picture via **WhatsApp groups**.  
    - A **webhook (Green API)** captures and forwards messages to **Firebase Firestore**.  
 
 2. **Processing and Data Extraction**  
@@ -78,7 +78,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
    - **Azure Computer Vision** extracts relevant details like:  
      - Customer phone number  
      - Delivery address  
-     - Business name  
+     - Business name (according to chatId in whatsApp)  
      - Delivery time  
    - The extracted data is structured and stored in **Firebase Realtime Database**.  
 
