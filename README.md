@@ -67,19 +67,31 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 
 ![02F3DA37-7A08-4F2D-BB8C-E01B8A5EA51A](https://github.com/user-attachments/assets/4bcaa6f7-bea2-4ed2-80b9-0e4193a3aabd)
 
+### 🔹 System Flow  
 
+1. **Incoming WhatsApp Messages**  
+   - Businesses send delivery requests via **WhatsApp groups**.  
+   - A **webhook (Green API)** captures and forwards messages to **Firebase Firestore**.  
 
-### 🔹 How It Works:
-1. **Incoming WhatsApp messages** → Firebase Firestore (via webhook & green api).
-2. **Firebase Function processes messages**:
-   - Analyzes images with **Azure Computer Vision**.
-   - Extracts details (phone, address, business name, time).
-   
-3. **Deliveries stored in Firebase Realtime Database**.
-4. **Node.js Server Listens for Changes**:
-   - Uses **WebSockets (Socket.io)** for real-time updates.
-5. **React Native App (Frontend) displays updates**.
+2. **Processing and Data Extraction**  
+   - A **Firebase Cloud Function** analyzes messages and images.  
+   - **Azure Computer Vision** extracts relevant details like:  
+     - Customer phone number  
+     - Delivery address  
+     - Business name  
+     - Delivery time  
+   - The extracted data is structured and stored in **Firebase Realtime Database**.  
 
+3. **Real-Time Updates and Tracking**  
+   - The **Node.js backend** listens for updates in Firebase.  
+   - **Socket.io** pushes instant updates to connected devices.  
+
+4. **Mobile App (React Native) for Delivery Personnel**  
+   - Displays assigned deliveries in real time.  
+   - Provides **one-tap Waze navigation** and **quick call** options for safe and efficient driving.  
+   - Allows status updates (e.g., "Delivered").  
+
+This architecture ensures a **fully automated, real-time, and user-friendly delivery management system**.
 ---
 
 
