@@ -91,7 +91,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
    - Provides **one-tap Waze navigation** and **quick call** options for safe and efficient driving.  
    - Allows status updates (e.g., "Delivered").  
 
-This architecture ensures a **fully automated, real-time, and user-friendly delivery management system**.
+
 ---
 
 
