@@ -30,7 +30,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 
 - One-tap navigation with Waze for quick routes.
 - Instant communication with customers via a call button.
-- Smart organization, allowing sorting and filtering by business, time, or status.
+- Smart organization, deliveries are sorting by city, timeleft and status.
 - Reduced phone use while driving, ensuring safer operations.
 
 ✅ Secure Authentication – Role-based access for managers and drivers.
