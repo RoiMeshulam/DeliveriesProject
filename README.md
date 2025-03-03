@@ -123,7 +123,7 @@ A streamlined mobile app designed for drivers:
 This helps **maximize efficiency and ensure a user-friendly experience** for both managers and delivery workers.   
 
 ---
-https://github.com/RoiMeshulam/DeliveriesFrontReactNative
+
 ## 📂 Repositories
 🔹 **Frontend (React Native App)** ➝ [Frontend Repo](https://github.com/RoiMeshulam/DeliveriesFrontReactNative)
 
