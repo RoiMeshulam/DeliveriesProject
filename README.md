@@ -155,13 +155,22 @@ This helps **maximize efficiency and ensure a user-friendly experience** for bot
    ```  
 2. Install dependencies:
    ```sh
-   npm install expo-cli --global
+   npm install -g react-native-community/cli
+   npm install
+   npx react-native link
+   
+   
    ```  
 3. Run the React Native app:
+   Android:
    ```sh
-   npm expo start
+   npx react-native run-android
+   ```
+    ios:
+   ```sh
+   npx react-native run-ios
    ```  
-4. Install on **Android/iOS devices** using **Expo Go**.
+
 
 ---
 
