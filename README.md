@@ -125,7 +125,7 @@ This helps **maximize efficiency and ensure a user-friendly experience** for bot
 ---
 https://github.com/RoiMeshulam/DeliveriesFrontReactNative
 ## 📂 Repositories
-🔹 **Frontend (React Native App)** ➝ [[Frontend Repo](https://github.com/RoiMeshulam/DeliveriesFrontReactNative)
+🔹 **Frontend (React Native App)** ➝ [Frontend Repo](https://github.com/RoiMeshulam/DeliveriesFrontReactNative)
 
 🔹 **Backend (Node.js Server, Firebase Functions)** ➝ [Backend Repo](https://github.com/RoiMeshulam/Deliveries_backend)
 
