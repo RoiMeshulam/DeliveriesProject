@@ -116,7 +116,7 @@ This ensures a secure, automated, and real-time delivery management system.
 ## 📌 Usage  
 
 ### 🔹 Admin Panel (Manager)  
-The admin interface allows efficient management of deliveries:  
+The admin panel is available only in the mobile app, allowing managers to:
 - 📋 **Monitor all incoming deliveries** in real time.  
 - 👤 **Assign deliveries** to available workers.  
 - 🚚 **Track delivery progress** and status updates.  
@@ -135,9 +135,10 @@ This helps **maximize efficiency and ensure a user-friendly experience** for bot
 
 ## 📂 Repositories
 🔹 **Frontend (React Native App)** ➝ [Frontend Repo](https://github.com/RoiMeshulam/DeliveriesFrontReactNative)
+**(Contains the mobile app for delivery personnel, built with React Native.)*
 
 🔹 **Backend (Node.js Server, Firebase Functions)** ➝ [Backend Repo](https://github.com/RoiMeshulam/Deliveries_backend)
-
+**(Manages API, authentication, WebSocket updates, and Firebase integrations.)*
 ---
 
 ## ⚙️ Installation
