@@ -35,6 +35,13 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 
 ✅ Secure Authentication – Role-based access for managers and drivers.
 
+✅ Push Notifications (FCM Integration) –
+
+- Real-time updates when a delivery is assigned or updated.
+- Background notifications for new deliveries, order updates, or urgent messages.
+- Optimized for Android (using React Native CLI for FCM support).
+
+
 ---
 
 # 📌 Technologies Used
@@ -51,7 +58,7 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 - **Green API** – Connects to WhatsApp Webhooks for message retrieval.
 
 ### Frontend (Mobile App)
-- **React Native + Expo** – Cross-platform mobile development
+- **React Native CLI** – Originally built with **Expo**, but migrated to React Native CLI to support **Firebase Cloud Messaging (FCM)** for real-time notifications.
 - **React Navigation** – Stack and tab navigation
 - **Styled Components** – UI styling
 - **React Hooks** – State management
@@ -86,7 +93,8 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 
 4. **Real-Time Updates and Tracking**  
    - The **Node.js backend** listens for updates in Firebase.  
-   - **Socket.io** pushes instant updates to connected devices.  
+   - **Socket.io** pushes instant updates to connected devices.
+   - **Firebase Cloud Messaging (FCM)** sends real-time push notifications.
 
 5. **Protected REST API (Express.js)**  
    - Backend provides **CRUD operations** for managing deliveries.  
@@ -98,7 +106,8 @@ The company receives delivery requests in 13 different WhatsApp groups, each wit
 6. **Mobile App (React Native) for Delivery Personnel**  
    - Displays assigned deliveries in real time.  
    - Provides **one-tap Waze navigation** and **quick call** options for safe and efficient driving.  
-   - Allows status updates (e.g., "Delivered").  
+   - Allows status updates (e.g., "Delivered").
+   - Push Notifications (FCM) ensure drivers never miss important updates. 
 
 This ensures a secure, automated, and real-time delivery management system.  
 ---
